@@ -1,0 +1,12 @@
+/*Cascading style Sheet */
+h1{
+     color: red;
+     background-color: black;
+     font-size: 100px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-weight: 400;
+     font-style: italic;
+     text-align: center;
+     
+
+}
