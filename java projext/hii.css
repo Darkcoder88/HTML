@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./po.jpg);
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    padding: 60px 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .ht{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 70px
+}
+section{
+    padding: 60px 100px;
+}
+ section .hero1{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.hero1{
+    font-size:30px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+ section .hero2{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+
+.hero2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+.hero2 p{
+    font-size: 10px;
+    width:500px
+}
